@@ -7,7 +7,9 @@ class Plate {
     this.y = height - this.h;
   }
   
-  catches(pie)
+  catches(pie){
+    return true;
+  }
   
   show() {
     
@@ -18,7 +20,3 @@ class Plate {
 }
 
   
-  
-  
-  
-}
